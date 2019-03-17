@@ -1,0 +1,120 @@
+body {
+  background-color: white;
+}
+
+header {
+  color: black;
+  background-color: salmon;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  margin:2em;
+  margin-left: 5em;
+  font-family: 'Georgia', Times, Times, serif;
+}
+
+/* styles paragraph */
+.bar {
+  float: right;
+  margin: 4em;
+  margin-right: 120px;
+  padding: 20px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* style section for header and nav bar*/
+h1 {
+  /* display: inline;
+  float: left;
+  margin: 0em;
+  margin-left: 93px;
+  margin-top: 1.12em;
+  text-align: left;
+  background-color: salmon;
+  font-family: 'Georgia', Times, Times, serif;
+  padding: 0; */
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+
+}
+
+/* changes color of nav bar when hovering*/
+a:hover {
+  background-color: #666666;
+  color: white;
+}
+
+/* shows current location inside navbar */
+.active {
+  background-color: salmon;
+}
+
+/* styles the body */
+body {
+  background-color: white;
+}
+
+/* styles inside of body section class */
+.boxsections {
+  overflow: auto;
+  clear: both;
+  background-image: url("../images/gray.png");
+  width: 100%;
+  padding: 30px 10px 100px 10px;
+  border-bottom: 8px;
+  border-style: solid;
+  border-bottom-color: #4aaaa5;
+  border-top-color: #515151;
+  clear: both;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+fieldset {
+  background-color: white;
+  border: 200px;
+  padding: 30px;
+  width: 960px;
+  height: 550px;
+  margin: 0;
+  margin-left: 6em;
+  margin-top: 2em;
+}
+/* styles the h2 tag inside of body section class */
+.aboutMe, .contact, .portfolio {
+  color: salmon;
+}
+
+/*styles image */
+.img1 {
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+
+/* styles footer */
+footer {
+  padding: 20px;
+  position: fixed;
+  background-color: salmon ;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+/* styles for button */
+.submitbutton {
+  background-color: salmon;
+  height: 6em;
+  width: 8em;
+  position: absolute;
+  text-align: center;
+}
